@@ -13,16 +13,17 @@
 
       <div>
         <a class="link" href="index.html">Home</a>
-        <a class="link" href="timeline.html" style='text-decoration: underline'>Timeline</a>
+        <a class="link" style='text-decoration: underline'>Timeline</a>
         <a class="link" href="faq.html">FAQ</a>
         <a class="link" href="contributions.html">Contributions</a>
       </div>
 
-      <hr>
-
-      <h1>Timeline</h1>
-
+      <div id='table'></div>
     </div>
     <script src='assets/javascript/background.js'></script>
+    <script src='assets/javascript/csv-to-table.js'></script>
+    <script>
+      convert('assets/csv/timeline.csv', 'table');
+    </script>
   </body>
 </html>

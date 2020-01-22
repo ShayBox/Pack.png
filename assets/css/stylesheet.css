@@ -20,6 +20,16 @@ body {
   text-shadow: 3px 3px 0px #383838;
 }
 
+a {
+  color: #e0e0e0;
+  text-shadow: 3px 3px 0px #383838;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline #e0e0e0;
+}
+
 .center {
   height: 100%;
   left: 50%;
@@ -31,33 +41,30 @@ body {
   overflow: hidden;
 }
 
-.link {
-  color: #e0e0e0;
-  text-shadow: 2px 2px 0px #383838;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
 table {
   margin: 0 auto;
+  margin-top: 10px;
   text-align: center;
   border-collapse: collapse;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e0e0e0;
 }
- 
+
+tr:nth-child(odd) {
+  background: #23272a;
+  color: #e0e0e0;
+  text-shadow: 2px 2px 0px #383838;
+}
+
 tr:nth-child(even) {
-  background: #d4d4d4;
-  color: #383838;
-  text-shadow: 2px 2px 0px #e0e0e0;
+  background: #2c2f33;
+  color: #e0e0e0;
+  text-shadow: 2px 2px 0px #383838;
 }
- 
+
 th, td {
   padding: 10px 30px;
 }
- 
+
 th {
   border-bottom: 1px solid #d4d4d4;
 }
