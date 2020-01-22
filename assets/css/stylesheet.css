@@ -1,0 +1,35 @@
+body {
+  /* Background */
+  background: url(assets/images/backgrounds/1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Font */
+  font-family: 'MinecraftiaRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #e0e0e0;
+  text-shadow: 3px 3px 0px #383838;
+}
+
+.center {
+  height: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  position: fixed;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.link {
+  color: #e0e0e0;
+  text-shadow: 2px 2px 0px #383838;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
