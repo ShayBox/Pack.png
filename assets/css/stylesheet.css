@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'MinecraftiaRegular';
+  src: url('/assets/fonts/MinecraftiaRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   /* Background */
   background: url(assets/images/backgrounds/1.png) no-repeat center center fixed;
@@ -32,4 +39,25 @@ body {
 
 .link:hover {
   text-decoration: underline;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #d4d4d4;
+}
+ 
+tr:nth-child(even) {
+  background: #d4d4d4;
+  color: #383838;
+  text-shadow: 2px 2px 0px #e0e0e0;
+}
+ 
+th, td {
+  padding: 10px 30px;
+}
+ 
+th {
+  border-bottom: 1px solid #d4d4d4;
 }

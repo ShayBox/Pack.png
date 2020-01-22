@@ -3,10 +3,9 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
+    <title>Contributions</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/stylesheet.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='https://fontlibrary.org/face/minecraftia'>
   </head>
   <body>
     <div class='center'>
@@ -21,9 +20,12 @@
 
       <hr>
 
-      <h1>Contributions</h1>
-
+      <div id='table'></div>
     </div>
     <script src='assets/javascript/background.js'></script>
+    <script src='assets/javascript/csv-to-table.js'></script>
+    <script>
+      convert('assets/csv/data.csv', 'table');
+    </script>
   </body>
 </html>
